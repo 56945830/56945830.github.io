@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family: icon;
+    src:url(../font/LigatureSymbols.svg),
+    url(../font/LigatureSymbols.eot),
+    url(../font/LigatureSymbols.ttf),
+    url(../font/LigatureSymbols.woff);
+}
+#container{
+    width:840px;
+    text-align: center;
+    padding-left: 50px;
+}
+#container div{
+    width:200px;
+    height:200px;
+    border:9px solid rgba(204,204,204,.6);
+    border-radius:50%;
+    float:left;
+    margin-left:-50px;
+    text-align: center;
+    background-clip: border-box;
+}
+#container div p:nth-child(1){
+    font-family: icon;
+    font-size: 100px;
+    color:#999999;
+    margin-top:20px;
+}
+#container div p:nth-child(2){
+    font-size:30px;
+    color:#999999;
+}
+#container div:nth-child(1){
+    background-color:#0dc492;
+}
+#container div:nth-child(2){
+    background-color:#eb5a86;
+}
+#container div:nth-child(3){
+    background-color:#5ec4e6;
+}
+#container div:nth-child(4){
+    background-color:#f8c956;
+}
+#container div:nth-child(5){
+    background-color:#df77c6;
+}
+#container div:nth-child(1):hover{
+    transform:scale(1.1);
+}
+#container div:nth-child(2):hover{
+    transform:scale(1.1);
+}
+#container div:nth-child(3):hover{
+    transform:scale(1.1);
+}
+#container div:nth-child(4):hover{
+    transform:scale(1.1);
+}
+#container div:nth-child(5):hover{
+    transform:scale(1.1);
+}
